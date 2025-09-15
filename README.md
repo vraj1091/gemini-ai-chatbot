@@ -66,7 +66,7 @@ A modern, feature-rich chatbot application built with React and Google's Gemini 
 3. **API Key Configuration**:
    Your API key is already configured in the `.env` file:
    ```
-   REACT_APP_GEMINI_API_KEY=AIzaSyB7roX21PA6LhmnXhmdJpyJpvFyT23wekQ
+   REACT_APP_GEMINI_API_KEY=Your_API_KRY
    ```
 
    ⚠️ **Security Warning**: This key is for development only. For production:
@@ -214,8 +214,7 @@ REACT_APP_GEMINI_API_KEY=your_production_api_key
 ```bash
 # Check your .env file
 cat .env
-# Should show: REACT_APP_GEMINI_API_KEY=AIzaSyB7roX21PA6LhmnXhmdJpyJpvFyT23wekQ
-
+# Should show: REACT_APP_GEMINI_API_KEY=YOUR_API_KEY
 # Restart the development server
 npm start
 ```
